@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Test3</string>
+    <string name="txt_Home">Home</string>
+    <string name="txt_Balance">Balance</string>
+    <string name="txt_MyFinance">My Finance</string>
+    <string name="txt_Transactions">Transaction</string>
+    <string name="txt_Aboutus">About us</string>
+    <string name="txt_BalanceButton">Balance</string>
+    <string name="txt_Profile">Profile</string>
+    <string name="txt_Reports">Reports</string>
+    <string name="txt_AddMoney">Add Money</string>
+    <string name="txt_Amount">Amount</string>
+    <string name="txt_Category">Category</string>
+    <string name="txt_Date">Date</string>
+    <string name="txt_AddButton">Add</string>
+    <string name="txt_backButton">Back</string>
+    <string name="txt_addtransaction">Add</string>
+    <string name="txt_transactionhistory">History</string>
+    <string name="txt_TransactionsText">History</string>
+    <string name="txt_AddTransaction">Add Transaction</string>
+    <string name="txt_samplenumbers">P1039.67</string>
+    <string name="txt_Expenses">Expenses</string>
+    <string name="txt_Food">Food</string>
+    <string name="txt_Travel">Travel</string>
+    <string name="txt_Bills">Bills</string>
+    <string name="Txt_groceries">Groceries</string>
+    <string name="txt_Sample0">000.00</string>
+    <string name="txt_sample100">367.00</string>
+    <string name="txt_sample10">67.76</string>
+    <string name="txt_sample10000">67831.50</string>
+</resources>
