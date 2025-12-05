@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
     private Button transactionButton;
     private TextView CurrentBalance;
     private Button buttonBalance;
+    private Button signOut;
+    private Button buttonaboutus;
+    private Button buttonreport;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
@@ -31,14 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(MainActivity.this,MyFinanceScreen.class);
                 startActivity(intent);
             }
-        });
-
-
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
         });
 
 
@@ -60,6 +56,59 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(MainActivity.this,BalanceScreen.class);
                 startActivity(intent);
             }
+        });
+
+        signOut=findViewById(R.id.Signout);
+        signOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, Login.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonaboutus=findViewById(R.id.buttonaboutus);
+        buttonaboutus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, Aboutus.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonreport=findViewById(R.id.buttonreport);
+        buttonreport.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, Reports.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
         });
 
 

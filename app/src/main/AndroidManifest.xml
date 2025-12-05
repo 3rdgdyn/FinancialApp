@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test3">
         <activity
+            android:name=".Reports"
+            android:exported="false" />
+        <activity
+            android:name=".Aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".HistoryTransaction"
             android:exported="false" />
         <activity

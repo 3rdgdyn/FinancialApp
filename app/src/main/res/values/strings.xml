@@ -28,4 +28,13 @@
     <string name="txt_sample100">367.00</string>
     <string name="txt_sample10">67.76</string>
     <string name="txt_sample10000">67831.50</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_Password">Password</string>
+    <string name="txt_signout">Sign Out</string>
+    <string name="txt_aboutus">About Us</string>
+    <string name="txt_walanglaman">Wala pang laman</string>
+    <string name="txt_reports">Reports</string>
+    <string name="txt_monthlyincome">Monthly Income</string>
+    <string name="txt_insights">Insights</string>
 </resources>

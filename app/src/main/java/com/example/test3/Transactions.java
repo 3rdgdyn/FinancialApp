@@ -33,7 +33,6 @@ public class Transactions extends AppCompatActivity {
 
 
 
-
         buttonHistory=findViewById(R.id.buttonHistory);
         buttonHistory.setOnClickListener(new View.OnClickListener() {
             @Override
